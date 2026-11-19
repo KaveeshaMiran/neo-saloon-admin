@@ -9,6 +9,8 @@ export default function ProductCard(props: any) {
             <img src={props.imageURL} />
             <p>Price: {props.price}</p>
 
+            {props.children}
+
         </div>
     )
 
